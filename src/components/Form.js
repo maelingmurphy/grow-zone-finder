@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Button from './Button'
 
 const Form = () => {
-    
+    // Declare a new state variable, zipCode, that is linked to input value
     const [zipCode, setZipCode] = useState('');
     
     // onClick function for retrieving zone data
