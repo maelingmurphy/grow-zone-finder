@@ -1,6 +1,6 @@
 const Header = () => {
     return(
-        <div className>
+        <div>
             <h1>Plant Hardiness Zone Finder</h1>
         </div>
         
