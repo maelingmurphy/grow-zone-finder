@@ -1,6 +1,10 @@
 import Button from './Button'
 
 const Form = () => {
+    // onClick function for retrieving zone data
+    const onClick = () => {
+        console.log('Clicked!');
+    }
     return (
         <div className="form-container">
             <form className='form'>
