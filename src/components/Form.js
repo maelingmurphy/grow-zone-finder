@@ -15,7 +15,7 @@ const Form = () => {
                         placeholder='Enter zipcode'
                         name='zipcode'
                     />
-                    <Button text='Find My Zone' />
+                    <Button text='Find My Zone' onClick={onClick} />
                 </div>
             </form>
         </div>
