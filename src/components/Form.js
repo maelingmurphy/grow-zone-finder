@@ -26,7 +26,8 @@ const Form = () => {
             const zoneData = await response.json();
             
             // log zoneData
-            console.log(zoneData);
+            console.log(zoneData.zone);
+            return zoneData.zone;
         } catch (error) {
             console.log(error)
             alert(`${error} : No data found for this zip code entry (${zipCode})`);
