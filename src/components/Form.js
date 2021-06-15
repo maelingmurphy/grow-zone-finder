@@ -5,10 +5,22 @@ const Form = () => {
     // Declare a new state variable, zipCode, that is linked to input value
     const [zipCode, setZipCode] = useState('');
     
-    // onClick function for retrieving zone data
+    // function for checking zip code format
+    const isCorrectZipCodeFormat = (zipcode) => {
+        const regexpFiveDigit = /^[0-9]{5}$/;
+        return regexpFiveDigit.test(zipcode) ;
+    }
+    
+    // function for retrieving zone data
     const onClick = (event) => {
         event.preventDefault(); // prevents submission to a page
         console.log(`Clicked`, {zipCode});
+        console.log('result', isCorrectZipCodeFormat(zipCode));
+        // validate zip code format
+        if (!(isCorrectZipCodeFormat(zipCode))) {
+            alert('Please enter a 5 digit zip code');
+            return;
+        }
     }
 
     return (
