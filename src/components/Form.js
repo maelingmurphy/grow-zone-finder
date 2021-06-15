@@ -2,7 +2,7 @@ import Button from './Button'
 
 const Form = () => {
     return (
-        <div>
+        <div className="form-container">
             <form className='form'>
                 <div className='form-control'>
                     <label htmlFor='zipcode'>Enter your zipcode to find your growing zone</label>
