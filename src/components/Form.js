@@ -1,3 +1,5 @@
+import Button from './Button'
+
 const Form = () => {
     return (
         <div>
@@ -9,6 +11,7 @@ const Form = () => {
                         placeholder='Enter zipcode'
                         name='zipcode'
                     />
+                    <Button text='Find My Zone' />
                 </div>
             </form>
         </div>
