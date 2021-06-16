@@ -1,6 +1,6 @@
 import Button from './Button'
 
-const Form = ({ onClick, zipCode, onChange }) => {
+const Form = ({ displayData, zipCode, onChange }) => {
   
     return (
         <div className='form-container'>
@@ -14,7 +14,7 @@ const Form = ({ onClick, zipCode, onChange }) => {
                         value={zipCode}
                         onChange={onChange}
                     />
-                    <Button text='Find My Zone' onClick={onClick}/>
+                    <Button text='Find My Zone' onClick={displayData}/>
                 </div>
             </form>
         </div>

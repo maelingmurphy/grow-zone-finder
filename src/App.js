@@ -9,7 +9,8 @@ const App = () => {
   // Declare a new state variable, zipCode, that is linked to input value
   const [zipCode, setzipCode] = useState('');
 
-  // set state variable for zone data so it can be displayed in results
+  // set state variable for zone so it can be displayed in Results component 
+
   // const [zone, setZone] = useState(5);
   
   // function for updating zipCode state as input changes
@@ -47,7 +48,7 @@ const App = () => {
   }
 
   // function for retrieving & displaying zone data via button click 
-  const onClick = (event) => {
+  const displayData = (event) => {
     event.preventDefault(); // prevents submission to a page
     console.log(`Clicked`, zipCode);
     console.log('result', isCorrectZipCodeFormat(zipCode));
@@ -66,7 +67,7 @@ const App = () => {
     <div className="App">
       {/* <button onClick={addZone}>Test zone data: { zoneData }</button>  */}
       <Header />
-      <Form onClick={onClick} zipCode={zipCode} onChange={onChange}/>
+      <Form displayData={displayData} zipCode={zipCode} onChange={onChange}/>
       <Results />
     </div>
   );
