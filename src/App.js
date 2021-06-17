@@ -1,22 +1,26 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Header from './components/Header'
 import Form from './components/Form'
 import Results from './components/Results'
 
 
 const App = () => {
- 
-  // Declare a new state variable, zipCode, that is linked to input value
+  
+  // set state variable, zipCode, that is linked to input value
   const [zipCode, setzipCode] = useState('');
 
   // set state variable for zone so it can be displayed in Results component 
   const [zone, setZone] = useState('');
 
+  // set state variable that holds the value for if a zip code format is correct (true or false)
+  const [isCorrectFormat, setisCorrectFormat] = useState(false);
   
   
   // function for updating zipCode state as input changes
   const onChange = (e) => {
     setzipCode(e.target.value);
+    // every time a change is made in the input, check if it is correct format
+    setisCorrectFormat(isCorrectZipCodeFormat(e.target.value));
   } 
   
   // function for checking zip code format
@@ -66,13 +70,12 @@ const App = () => {
 
   return (
     <div className="App">
-      {/* <button onClick={addZone}>Test zone data: { zoneData }</button>  */}
       <Header />
       <Form displayData={displayData} zipCode={zipCode} onChange={onChange}/>
-      <Results zone={zone} />
+      <Results zone={zone} isCorrectFormat={isCorrectFormat} />
     </div>
   );
 }
   
-  export default App;
+export default App;
   
