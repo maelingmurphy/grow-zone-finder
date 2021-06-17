@@ -10,8 +10,7 @@ const App = () => {
   const [zipCode, setzipCode] = useState('');
 
   // set state variable for zone so it can be displayed in Results component 
-
-  // const [zone, setZone] = useState(5);
+  const [zone, setZone] = useState('');
   
   // function for updating zipCode state as input changes
   const onChange = (e) => {
@@ -37,9 +36,10 @@ const App = () => {
         }
         // convert Response object to JSON 
         const zoneData = await response.json();
-        
-        // log zoneData
-        console.log(zoneData)
+        console.log('zone data: ', zoneData.zone)
+        // set zone value
+        setZone(zoneData.zone);
+        return zoneData.zone;
 
     } catch (error) {
         console.log(error)
@@ -57,10 +57,9 @@ const App = () => {
         alert('Please enter a 5 digit zip code');
         return;
     }
-
+    
     // get zoneData
     getZoneData(zipCode);
-
   }
 
   return (
@@ -68,7 +67,7 @@ const App = () => {
       {/* <button onClick={addZone}>Test zone data: { zoneData }</button>  */}
       <Header />
       <Form displayData={displayData} zipCode={zipCode} onChange={onChange}/>
-      <Results />
+      <Results zone={zone} />
     </div>
   );
 }
