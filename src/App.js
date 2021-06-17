@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Header from './components/Header'
 import Form from './components/Form'
 import Results from './components/Results'
@@ -11,6 +11,8 @@ const App = () => {
 
   // set state variable for zone so it can be displayed in Results component 
   const [zone, setZone] = useState('');
+
+  
   
   // function for updating zipCode state as input changes
   const onChange = (e) => {
