@@ -21,6 +21,8 @@ const App = () => {
     setzipCode(e.target.value);
     // every time a change is made in the input, check if it is correct format
     setisCorrectFormat(isCorrectZipCodeFormat(e.target.value));
+    // reset zone state variable
+    setZone('');
   } 
   
   // function for checking zip code format
