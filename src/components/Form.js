@@ -13,6 +13,7 @@ const Form = ({ displayData, zipCode, onChange }) => {
                         name='zipcode'
                         value={zipCode}
                         onChange={onChange}
+                        autoComplete='off'
                     />
                     <Button text='Find My Zone' onClick={displayData}/>
                 </div>
