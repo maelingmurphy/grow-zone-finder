@@ -1,7 +1,7 @@
 const Header = () => {
     return(
         <div>
-            <h1>Plant Hardiness Zone Finder</h1>
+            <h1>Find Your Grow Zone</h1>
         </div>
         
     );
