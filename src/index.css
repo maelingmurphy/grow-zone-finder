@@ -11,6 +11,7 @@
 .App {
   background: #0B3B2F;
   height: 100vh;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .container {
