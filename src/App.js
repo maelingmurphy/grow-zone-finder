@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Header from './components/Header'
 import Form from './components/Form'
 import Results from './components/Results'
+import Footer from './components/Footer'
 
 
 const App = () => {
@@ -75,6 +76,7 @@ const App = () => {
       <Header />
       <Form displayData={displayData} zipCode={zipCode} onChange={onChange}/>
       <Results zone={zone} isCorrectFormat={isCorrectFormat} />
+      <Footer />
     </div>
   );
 }
