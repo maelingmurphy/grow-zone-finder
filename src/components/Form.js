@@ -1,4 +1,5 @@
-import Button from './Button'
+import Button from './Button';
+import './css/Form.css';
 
 const Form = ({ displayData, zipCode, onChange }) => {
   
