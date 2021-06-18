@@ -8,7 +8,17 @@
     color: #FBFFF8;
     text-transform: uppercase;
     font-weight: 600;
+    transition: background 250ms ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
-/* .btn:hover, .btn:focus {
-} */
+
+.btn:hover, .btn:focus {
+    background: #6B9772;
+    transition: background 250ms ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    
+}
