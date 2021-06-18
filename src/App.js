@@ -4,7 +4,6 @@ import Form from './components/Form'
 import Results from './components/Results'
 import Footer from './components/Footer'
 
-
 const App = () => {
   
   // set state variable, zipCode, that is linked to input value

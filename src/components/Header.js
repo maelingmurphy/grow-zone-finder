@@ -6,9 +6,9 @@ const Header = () => {
     return(
         <header>
             <IconContext.Provider value={{className: 'icon'}}>
-                <FaSeedling />
+                <FaSeedling size="2.8em" />
             </IconContext.Provider>
-            <h1>Find Your Grow Zone</h1>
+            <h1 class="heading-main">Find Your Grow Zone</h1>
         </header>    
     );
 }
