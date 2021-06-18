@@ -1,11 +1,11 @@
 import { IconContext } from 'react-icons';
-import { FaLeaf } from 'react-icons/fa';
+import { FaSeedling } from 'react-icons/fa';
 
 const Header = () => {
     return(
         <div>
             <IconContext.Provider value={{className: 'icon'}}>
-                <FaLeaf />
+                <FaSeedling />
             </IconContext.Provider>
             <h1>Find Your Grow Zone</h1>
         </div>    
