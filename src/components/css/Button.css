@@ -1,0 +1,14 @@
+.btn {
+    width: 100%;
+    background: #BD7800;
+    border: unset;
+    border-radius: 50px;
+    font-size: 1.4rem;
+    padding: 0.8em 1.5em;
+    color: #FBFFF8;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* .btn:hover, .btn:focus {
+} */
