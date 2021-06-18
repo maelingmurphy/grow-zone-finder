@@ -6,7 +6,7 @@ const Form = ({ displayData, zipCode, onChange }) => {
         <div className='form-container'>
             <form className='form'>
                 <div className='form-control'>
-                    <label className='form-label' htmlFor='zipcode'>Enter your zip code to find your plant hardiness zone</label>
+                    <label className='form-label' htmlFor='zipcode'>Enter your zip code to find your plant hardiness zone<span className="asterisk">*</span></label>
                     <input 
                         type='text'
                         placeholder='Enter US zip code'
@@ -16,6 +16,7 @@ const Form = ({ displayData, zipCode, onChange }) => {
                         autoComplete='off'
                     />
                     <Button text='Find My Zone' onClick={displayData}/>
+                    <p class="note"><span class="asterisk">*</span>Please note that information is not currently available for all US zip codes</p>
                 </div>
             </form>
         </div>
