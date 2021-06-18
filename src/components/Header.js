@@ -8,8 +8,7 @@ const Header = () => {
                 <FaLeaf />
             </IconContext.Provider>
             <h1>Find Your Grow Zone</h1>
-        </div>
-        
+        </div>    
     );
 }
 
