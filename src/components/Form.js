@@ -6,10 +6,10 @@ const Form = ({ displayData, zipCode, onChange }) => {
         <div className='form-container'>
             <form className='form'>
                 <div className='form-control'>
-                    <label htmlFor='zipcode'>Enter your zipcode to find your growing zone</label>
+                    <label className='form-label' htmlFor='zipcode'>Enter your zip code to find your plant hardiness zone</label>
                     <input 
                         type='text'
-                        placeholder='Enter zipcode'
+                        placeholder='Enter US zip code'
                         name='zipcode'
                         value={zipCode}
                         onChange={onChange}
