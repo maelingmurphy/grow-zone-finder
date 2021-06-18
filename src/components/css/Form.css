@@ -13,8 +13,12 @@
     flex-direction: column;
     width: 70%;
     max-width: 350px;
+    margin: 0 auto;
+    margin-top: 1.9em;
 }
 
 .form-input {
     display: block;
+    align-self: center;
+
 }
