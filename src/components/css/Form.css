@@ -8,6 +8,13 @@
     color: #FBFFF8;
 }
 
+.form-items {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    max-width: 350px;
+}
+
 .form-input {
     display: block;
 }
