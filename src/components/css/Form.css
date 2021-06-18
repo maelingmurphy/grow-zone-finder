@@ -1,8 +1,13 @@
 .form-container {
     margin-top: 4.2em;
+    text-align: center;
 }
 
 .form-label {
     font-size: 1.25em;
     color: #FBFFF8;
+}
+
+.form-input {
+    display: block;
 }

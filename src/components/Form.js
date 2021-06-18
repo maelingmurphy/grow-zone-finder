@@ -8,7 +8,8 @@ const Form = ({ displayData, zipCode, onChange }) => {
             <form className='form'>
                 <div className='form-control'>
                     <label className='form-label' htmlFor='zipcode'>Enter your zip code to find your plant hardiness zone<span className="asterisk">*</span></label>
-                    <input 
+                    <input
+                        className='form-input' 
                         type='text'
                         placeholder='Enter US zip code'
                         name='zipcode'
