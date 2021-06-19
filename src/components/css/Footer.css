@@ -8,3 +8,14 @@ footer {
     /* position: fixed;
     bottom: 0; */
 }
+
+.link {
+    cursor: pointer;
+    text-decoration: none;
+    color: #221500;
+    font-weight: 600;
+}
+
+.link:hover, .link:focus {
+    color: #0B3B2F;
+}
