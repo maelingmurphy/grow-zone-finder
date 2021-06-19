@@ -55,3 +55,9 @@
     left: 1.2em;
 }
 
+/* Media Queries */
+@media screen and (min-width: 900px) {
+    .form-label, .note {
+        color: #221500;
+    }
+}

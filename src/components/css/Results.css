@@ -14,3 +14,10 @@
     font-size: 5em;
     text-transform: uppercase;
 }
+
+/* Media Queries */
+@media screen and (min-width: 900px) {
+    .zone-data {
+        color: #221500;
+    }
+}
