@@ -23,6 +23,7 @@ const Form = ({ displayData, zipCode, onChange }) => {
                                 value={zipCode}
                                 onChange={onChange}
                                 autoComplete='off'
+                                title="Enter zip code"
                             />
                         </div>
                         
