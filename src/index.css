@@ -38,9 +38,18 @@
 
   .container {
     flex-direction: row;
+    /* border: 1px solid red;
+    background: orange; */
+    margin: 3em auto;
+    padding: 0;
+    width: 80%;
+    max-width: 1000px;
+    align-items: stretch;
+  
   }
 
   .content-container {
     background:#FBFFF8;
+    flex: 1;
   }
 }

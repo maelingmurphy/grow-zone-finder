@@ -22,5 +22,7 @@ header {
 @media screen and (min-width: 900px) {
     header {
         background: #0B3B2F;
+        padding: 9em 1em;
+        flex: 1;
     }
 }
