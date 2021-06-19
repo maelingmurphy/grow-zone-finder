@@ -13,6 +13,13 @@
     color: #BD7800;
 }
 
+.note {
+    text-align: center;
+    color: #FBFFF8;
+    font-style: italic;
+    margin-top: 1em;
+}
+
 .form-items {
     display: flex;
     flex-direction: column;
@@ -48,9 +55,3 @@
     left: 1.2em;
 }
 
-.note {
-    text-align: center;
-    color: #FBFFF8;
-    font-style: italic;
-    margin-top: 2em;
-}

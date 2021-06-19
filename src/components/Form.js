@@ -10,6 +10,8 @@ const Form = ({ displayData, zipCode, onChange }) => {
             <form className='form'>
                 <div className='form-control'>
                     <p className="form-label">Enter your zip code to find your plant hardiness zone<span className="asterisk">*</span></p>
+                    <p class="note">Information not available for all US zip codes</p>
+
                     <div class="form-items">
                         <div className='form-input-container'>
                             <IconContext.Provider value={{className: 'icon-search'}}>
@@ -29,7 +31,6 @@ const Form = ({ displayData, zipCode, onChange }) => {
                         
                         <Button text='Find My Zone' onClick={displayData}/>
                     </div>   
-                    <p class="note"><span class="asterisk">*</span>Please note that information is not currently available for all US zip codes</p>
                 </div>
             </form>
         </div>
