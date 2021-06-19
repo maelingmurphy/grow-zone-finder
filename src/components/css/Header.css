@@ -19,7 +19,7 @@ header {
 }
 
 /* Media Queries */
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1100px) {
     header {
         background: #0B3B2F;
         padding: 9em 1em;
