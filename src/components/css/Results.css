@@ -16,7 +16,7 @@
 }
 
 /* Media Queries */
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1100px) {
     .zone-title, .zone-data {
         color: #221500;
     }
