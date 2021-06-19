@@ -26,5 +26,6 @@
   padding: 3em 2em 0;
   margin: 0 auto;
   max-width: 850px;
+  flex-grow: 1;
   /* background: red; */
 }
