@@ -1,3 +1,5 @@
+import './css/Results.css';
+
 const Results = ({ zone, isCorrectFormat }) => {
     if (zone && isCorrectFormat) {
         return (
