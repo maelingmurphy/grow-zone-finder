@@ -75,9 +75,9 @@ const App = () => {
       <div class="container">
         <Header />
         <Form displayData={displayData} zipCode={zipCode} onChange={onChange}/>
-        <Results zone={zone} isCorrectFormat={isCorrectFormat} />
-        <Footer />
+        <Results zone={zone} isCorrectFormat={isCorrectFormat} />     
       </div>  
+      <Footer />
     </div>
   );
 }
