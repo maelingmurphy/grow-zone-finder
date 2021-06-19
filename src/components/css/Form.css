@@ -61,6 +61,10 @@
         color: #221500;
     }
 
+    .form-label {
+        font-size: 1.6rem;
+    }
+
     .form-input {
         border-color: #221500;
     }
