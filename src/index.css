@@ -51,5 +51,6 @@
   .content-container {
     background:#FBFFF8;
     flex: 1;
+    padding: 2em 4.5em;
   }
 }
