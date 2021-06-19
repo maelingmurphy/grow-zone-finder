@@ -35,4 +35,8 @@
   .container {
     flex-direction: row;
   }
+
+  .content-container {
+    background:#FBFFF8;
+  }
 }
