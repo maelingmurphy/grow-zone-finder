@@ -72,12 +72,15 @@ const App = () => {
 
   return (
     <div className="App">
-      <div class="container">
-        <Header />
-        <Form displayData={displayData} zipCode={zipCode} onChange={onChange}/>
-        <Results zone={zone} isCorrectFormat={isCorrectFormat} />     
-      </div>  
-      <Footer />
+      <div class="wrapper">
+        <div class="container">
+          <Header />
+          <Form displayData={displayData} zipCode={zipCode} onChange={onChange}/>
+          <Results zone={zone} isCorrectFormat={isCorrectFormat} />     
+        </div>  
+        <Footer />
+      </div>
+      
     </div>
   );
 }
