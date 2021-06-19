@@ -24,5 +24,6 @@ header {
         background: #0B3B2F;
         padding: 9em 2.5em;
         flex: 1;
+        justify-content: center;
     }
 }
