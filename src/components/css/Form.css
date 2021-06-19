@@ -9,6 +9,10 @@
     text-align: center;
 }
 
+.asterisk {
+    color: #BD7800;
+}
+
 .form-items {
     display: flex;
     flex-direction: column;
@@ -24,6 +28,7 @@
     align-self: center;
     font-size: 1.4rem;
     padding: 0.8em 1.5em 0.8em 3em;
+    margin-bottom: 1em;
     width: 100%;
     border-radius: 50px;
     border: unset;
