@@ -29,3 +29,10 @@
   flex-grow: 1;
   /* background: red; */
 }
+
+/* Media Queries */
+@media screen and (min-width: 900px) {
+  .container {
+    flex-direction: row;
+  }
+}
