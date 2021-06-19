@@ -49,6 +49,9 @@
   }
 
   .content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background:#FBFFF8;
     flex: 1;
     padding: 2em 4.5em;
