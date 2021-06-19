@@ -79,8 +79,7 @@ const App = () => {
           <Results zone={zone} isCorrectFormat={isCorrectFormat} />     
         </div>  
         <Footer />
-      </div>
-      
+      </div> 
     </div>
   );
 }
