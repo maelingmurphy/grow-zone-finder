@@ -60,4 +60,8 @@
     .form-label, .note {
         color: #221500;
     }
+
+    .form-input {
+        border-color: #221500;
+    }
 }
