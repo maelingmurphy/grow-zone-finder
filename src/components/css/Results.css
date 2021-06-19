@@ -1,4 +1,9 @@
 .zone-container {
     margin-top: 1.7em;
+    color: #FBFFF8;
 }
 
+.zone-title {
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
