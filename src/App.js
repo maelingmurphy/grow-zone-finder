@@ -75,10 +75,10 @@ const App = () => {
       <div class="wrapper">
         <div class="container">
           <Header />
-          <div class="content-container">
+          <main class="content-container">
             <Form displayData={displayData} zipCode={zipCode} onChange={onChange}/>
             <Results zone={zone} isCorrectFormat={isCorrectFormat} />    
-          </div> 
+          </main> 
         </div>  
         <Footer />
       </div> 
