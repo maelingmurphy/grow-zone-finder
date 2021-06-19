@@ -20,4 +20,12 @@
     .zone-title, .zone-data {
         color: #221500;
     }
+
+    .zone-container {
+        margin-bottom: 0;
+    }
+
+    .zone-data {
+        font-size: 2.5em;
+    }
 }
