@@ -1,9 +1,16 @@
 .zone-container {
     margin-top: 1.7em;
     color: #FBFFF8;
+    text-align: center;
 }
 
 .zone-title {
     font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.zone-data {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 5em;
     text-transform: uppercase;
 }
