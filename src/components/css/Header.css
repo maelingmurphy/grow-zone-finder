@@ -17,3 +17,10 @@ header {
     color: #FBFFF8;
     text-align: center;
 }
+
+/* Media Queries */
+@media screen and (min-width: 900px) {
+    header {
+        background: #0B3B2F;
+    }
+}

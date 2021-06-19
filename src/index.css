@@ -32,6 +32,10 @@
 
 /* Media Queries */
 @media screen and (min-width: 900px) {
+  .wrapper {
+    background: #E1E9DB;
+  }
+
   .container {
     flex-direction: row;
   }
