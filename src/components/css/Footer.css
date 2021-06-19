@@ -4,6 +4,7 @@ footer {
     text-align: center;
     color: #221500;
     padding: 1em 0.5em;
+    flex-shrink: 0;
     /* position: fixed;
     bottom: 0; */
 }
