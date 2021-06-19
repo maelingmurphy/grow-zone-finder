@@ -8,7 +8,7 @@ const Header = () => {
             <IconContext.Provider value={{className: 'icon'}}>
                 <FaSeedling size="2.8em" />
             </IconContext.Provider>
-            <h1 class="heading-main">Find Your Grow Zone</h1>
+            <h1 class="heading-main">Find Your<br /> Grow Zone</h1>
         </header>    
     );
 }
