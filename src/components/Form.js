@@ -9,7 +9,7 @@ const Form = ({ displayData, zipCode, onChange }) => {
         <div className='form-container'>
             <form className='form'>
                 <div className='form-control'>
-                    <label className='form-label' htmlFor='zipcode'>Enter your zip code to find your plant hardiness zone<span className="asterisk">*</span></label>
+                    <p className="form-label">Enter your zip code to find your plant hardiness zone<span className="asterisk">*</span></p>
                     <div class="form-items">
                         <div className='form-input-container'>
                             <IconContext.Provider value={{className: 'icon-search'}}>
