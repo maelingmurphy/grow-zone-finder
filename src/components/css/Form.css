@@ -16,6 +16,7 @@
     max-width: 350px;
     margin: 0 auto;
     margin-top: 1.9em;
+    position: relative;
 }
 
 .form-input {
@@ -26,11 +27,15 @@
     width: 100%;
     border-radius: 50px;
     border: unset;
+    color: #221500;
+    ;
 }
 
 .icon-search {
     position: absolute;
-    margin-left: 0;
+    color: hsla(38, 100%, 7%, 0.87);
+    top: 1.25em;
+    left: 1.2em;
 }
 
 .note {
