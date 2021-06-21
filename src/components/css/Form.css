@@ -22,7 +22,7 @@
 .form-items {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 80%;
     max-width: 350px;
     margin: 0 auto;
     margin-top: 1.9em;
@@ -32,8 +32,8 @@
 .form-input {
     display: block;
     align-self: center;
-    font-size: 1.4rem;
-    padding: 0.4em 0.4em 0.4em 2.5em;
+    font-size: 1.1rem;
+    padding: 0.4em 0.4em 0.4em 2.9em;
     margin-bottom: 1em;
     width: 100%;
     border-radius: 50px;
@@ -50,7 +50,7 @@
 .icon-search {
     position: absolute;
     color: hsla(38, 100%, 7%, 0.87);
-    top: 1em;
+    top: 0.6em;
     left: 1.2em;
 }
 
