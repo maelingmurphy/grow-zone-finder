@@ -68,4 +68,8 @@
         border-color: #221500;
         font-size: 1.3rem;
     }
+
+    .icon-search {
+        top: 0.9em;
+    }
 }
