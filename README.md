@@ -1,3 +1,16 @@
+# grow-zone-finder
+
+A React site that informs users of their USDA plant hardiness zone by retreiving data from a REST API ([Frostline API](https://github.com/waldoj/frostline)) using the user’s zip code input 
+
+**LIVE DEMO** : https://growzonefinder.netlify.app/
+![Grow Zone Finder Homepage Screenshot - Desktop Layout](project-notes/7.21.21-homepage-desktop-form.jpg)
+
+## TECH STACK
+- React.js
+- JavaScript
+- HTML
+- CSS 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
